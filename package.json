@@ -1,23 +1,32 @@
 {
   "name": "long-night",
   "version": "1.0.0",
-  "description": "Lottie Animation Editor",
-  "main": "./src/main.js",
+  "description": "A Lottie Editor",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron ./src"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/DanielHuey/long-night.git"
   },
   "keywords": [
-    "lottie"
+    "lottie",
+    "animation"
   ],
-  "author": "DanielHuey (Agani Daniel S.)",
+  "author": "Agani Daniel S.",
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/DanielHuey/long-night/issues"
   },
-  "homepage": "https://github.com/DanielHuey/long-night#readme"
+  "homepage": "https://github.com/DanielHuey/long-night#readme",
+  "dependencies": {
+    "animejs": "^3.2.1",
+    "konva": "^9.2.2",
+    "lottie-web": "^5.12.2"
+  },
+  "devDependencies": {
+    "electron": "^27.0.1"
+  }
 }
